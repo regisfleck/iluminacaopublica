@@ -3,9 +3,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: iluminacaopublica
+  database: blog_development
   pool: 5
-  username: postgres
+  username: postgre
   password: deadloop
   host: localhost
 
@@ -15,17 +15,17 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: iluminacaopublica
+  database: blog_test
   pool: 5
-  username: postgres
+  username: postgre
   password: deadloop
   host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: iluminacaopublica
+  database: blog_production
   pool: 5
-  username: postgres
+  username: postgre
   password: deadloop
   host: localhost

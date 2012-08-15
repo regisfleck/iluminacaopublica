@@ -3,13 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 gem 'bootstrap-sass','2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'pg'
+gem 'yaml_db'
+gem 'sqlite3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-group :development do
-  gem 'sqlite3'
-end
 
 
 # Gems used only for assets and not required
@@ -28,9 +27,6 @@ group :development do
   gem 'annotate', '~> 2.4.1.beta'
 end
 
-group :production do
-  gem 'pg', '0.12.2'
-end
 
 gem 'jquery-rails'
 
