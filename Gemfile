@@ -26,6 +26,10 @@ group :development do
   gem 'annotate', '~> 2.4.1.beta'
 end
 
+group :production do
+  gem 'pg', '0.12.2'
+end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
