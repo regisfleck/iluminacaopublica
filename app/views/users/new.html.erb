@@ -1,0 +1,27 @@
+<h1>Cadastro de Usuários</h1>
+
+<div class="row">
+        <div class="span6 offset3">
+                <%= form_for(@user) do |f| %>
+                        <%= f.label :nome %>
+                        <%= f.text_field :nome %>
+
+			<%= f.label :matricula %>
+			<%= f.text_field :matricula %>
+
+                        <%= f.label :email %>
+                        <%= f.text_field :email %>
+
+			<%= f.label :login %>
+			<%= f.text_field :login %>
+
+                        <%= f.label :password %>
+                        <%= f.password_field :password %>
+
+                        <%= f.label :password_confirmation, "Confirmation" %>
+                        <%= f.password_field :password_confirmation %>
+
+                        <%= f.submit "Criar usuário", class: "btn btn-large btn-primary" %>
+                <% end %>
+        </div>
+</div>
