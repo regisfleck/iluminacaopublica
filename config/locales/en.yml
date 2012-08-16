@@ -3,3 +3,10 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    models:
+     user: Dude
+  attributes:
+    user:
+      password: "senha"
+      password_confirmation: "confirmação de senha"  
